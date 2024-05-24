@@ -3,7 +3,7 @@
         name: "AppFooter",
 
         data() {
-            return {
+            return { 
                 comicsLIst: [
                     "CHARACTERS",
                     "COMICS",
