@@ -1,18 +1,37 @@
 <script>
     export default {
-        name: "AppHeader"
+        name: "AppHeader",
+        // data() {
+        //     return {
+        //         links: [
+        //         "CHARACTERS",
+        //             "MOVIES",
+        //             "TV",
+        //             "GAMES",
+        //             "COLLECTIBLES",
+        //             "VIDEOS",
+        //             "FANS",
+        //             "NEWS",
+        //             "SHOP"
+        //         ]
+        //     }
+        // } 
     }
 </script>
 
 <template>
     <header>
         <!-- Contenitore -->
-        <div>
+        <div class="container">
             <div>
-
+                <!-- <img class="logo" src="../assets/img/dc-logo.png" alt=""> -->
             </div>
-            <div>
-
+            <div class="linkContainer">
+                <!-- <ul>
+                    <li class="link" v-for="link in links" :key="link">
+                        {{link}}
+                    </li>
+                </ul> -->
             </div>
         </div>
     </header>
