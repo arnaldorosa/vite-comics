@@ -20,7 +20,7 @@
 
 <style>
     header {
-        background-color: blue;
+        background-color: orange;
         width: 100%;
         height: 10rem;
     }
